@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Druhá stránka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: white;
+            width: 350px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .header {
+            background: url('https://picsum.photos/400/150') center/cover;
+            height: 150px;
+        }
+
+        .content {
+            padding: 25px;
+        }
+
+        h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .link-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .link-btn:hover {
+            background: #5563c1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="header"></div>
+
+    <div class="content">
+        <h2>Druhá stránka</h2>
+        <p>Tahle stránka má jiný design než ta první.</p>
+
+        <!-- ODKAZ -->
+        <a href="index.html" class="link-btn">Zpět na první stránku</a>
+    </div>
+</div>
+
+</body>
+</html>
