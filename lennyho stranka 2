@@ -55,7 +55,7 @@
 
 <div class="container">
     <h1>Vítej na mé stránce</h1>
-    <p>Tady může být krátký popis nebo úvodní text.</p>
+    <p>stiskněte odkaz a navštívíte mou druhou stránku.</p>
 
     <!-- ODKAZ NA JINOU STRÁNKU -->
     <a href="https://tvoje-stranka.cz" class="btn">Přejít na jinou stránku</a>
