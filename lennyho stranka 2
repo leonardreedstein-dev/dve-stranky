@@ -55,16 +55,11 @@
 
 <div class="container">
     <h1>Vítej na mé stránce</h1>
-    <p>stiskněte odkaz a navštívíte mou druhou stránku.</p>
+    <p>Tady může být krátký popis nebo úvodní text.</p>
 
-<!-- Jednoduchá navigace s jedním odkazem -->
-<nav style="text-align:center; margin:20px;">
-    <a href="https://github.com/leonardreedstein-dev/dve-stranky/blob/main/lennyho%20repozit" 
-       style="display:inline-block; padding:10px 20px; 
-              background:#4CAF50; color:white; text-decoration:none; 
-              border-radius:8px; font-weight:bold;">
-        Přejít na stránku
-    </a>
-</nav>
+    <!-- odkaz-->
+    <a href=https://github.com/leonardreedstein-dev/dve-stranky/blob/main/lennyho%20repozit class="btn">Přejít na jinou stránku</a>
+</div>
+
 </body>
 </html>
